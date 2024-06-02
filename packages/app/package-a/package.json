@@ -1,0 +1,7 @@
+{
+    "name": "@ehwillows/app.package-a",
+    "version": "1.0.0",
+    "description": "Perhaps futile attempt to get modules and typescript to work",
+    "type": "module"
+}
+  

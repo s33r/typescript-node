@@ -5,13 +5,24 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test-ts-node",
-    "test-ts-node": "ts-node-esm lib/index.ts"
+    "build": "rm -rf dist && tsc",
+    "run:lib": "node dist/lib/index.js",
+    "run:app": "node dist/packages/app/package-a/index.js",
+    "test:lib-tsnode": "ts-node-esm lib/index.ts",
+    "test:paths-tsnode": "ts-node-esm packages/app/package-a/index.ts",
+    "test:lib-tsx": "tsx lib/index.ts",
+    "test:paths-tsx": "tsx packages/app/package-a/index.ts",
+    "test:lib-tsimp": "tsimp lib/index.ts",
+    "test:paths-tsimp": "tsimp packages/app/package-a/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/s33r/typescript-node.git"
   },
+  "workspaces": [
+    "packages/app/*",
+    "packages/lib/*"
+  ],
   "keywords": [
     "ts-node",
     "typescript",

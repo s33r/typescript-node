@@ -1,9 +1,19 @@
 {
     "compilerOptions": {
-        "noEmit": true,
+        "outDir": "dist",
         "target": "ESNext",
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
+        "strict": true,
+        "alwaysStrict": true,
+        "paths": {
+            "@ehwillows/app.*": [
+                "./packages/app/*",
+            ],
+            "@ehwillows/lib.*": [
+                "./packages/lib/*",
+            ],
+        },
     },
     "ts-node": {
         "esm": true
