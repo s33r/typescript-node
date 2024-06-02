@@ -1,0 +1,41 @@
+{
+  "name": "@ehwillows/typescript-node",
+  "version": "1.0.0",
+  "description": "Perhaps futile attempt to get modules and typescript to work",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-ts-node",
+    "test-ts-node": "ts-node-esm lib/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s33r/typescript-node.git"
+  },
+  "keywords": [
+    "ts-node",
+    "typescript",
+    "module",
+    "tsimp",
+    "tsx"
+  ],
+  "author": {
+    "name": "Erin Willows",
+    "email": "erin@ehwillows.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s33r/typescript-node/issues"
+  },
+  "homepage": "https://github.com/s33r/typescript-node#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "tsimp": "^2.0.11",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.13.0",
+    "tslib": "^2.6.2"
+  }
+}
