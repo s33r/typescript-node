@@ -4,7 +4,7 @@ Perhaps futile attempt to get node, esm and typescript to work
 
 ## ts-node
 
-By far the most popular, but it seems to be completely non-functional, at least if I follow the steps in the documentaiton. Prehaps there is an undocumented mode? Also the proejct's repo hasn't been updated in 6 months (as of June 2024) so... it might actually be dead.
+By far the most popular, but it seems to be completely non-functional, at least if I follow the steps in the documentaiton. Prehaps there is an undocumented mode? Also the project's repo hasn't been updated in 6 months (as of June 2024) so... it might actually be dead.
 
 - ❌ Without Paths
 - ❌ With Paths
